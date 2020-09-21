@@ -1,13 +1,18 @@
 import search
+import download
 
 def main():
-    query = {
-      'q': 'farrakhan',
+  downloader = download.Download()
+  downloader.run()
+  
+def query():
+  query = {
+      'q': 'Minister Louis Farrakhan',
       'max_results': '200',
       'videoDuration': 'long',
       'type': 'video'
     }
-    search.youtube_search(query)
+  search.youtube_search(query)
 
 if __name__ == "__main__":
     main()
