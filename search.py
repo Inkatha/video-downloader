@@ -9,7 +9,7 @@ from datetime import datetime
 # tab of
 #   https://cloud.google.com/console
 # Please ensure that you have enabled the YouTube Data API for your project.
-DEVELOPER_KEY = 'AIzaSyDQPItrgJPi9m_3xxwFn-sSVzuGMUo0mVI'
+DEVELOPER_KEY = 'AIzaSyDz73jAZPGJFDl1AIARG6Z-8nolkHRMgw8'
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,
